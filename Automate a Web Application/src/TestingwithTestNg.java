@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestingwithTestNg {
 	@Test
 	public void register() {
-		  System.setProperty("webdriver.chrome.driver", "F:\\Mphasis\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "F:\\Workspace\\chromedriver.exe");
 	      WebDriver wd=new ChromeDriver();
 	      wd.manage().window().maximize();
 	      wd.get("https://www.amazon.in/");
